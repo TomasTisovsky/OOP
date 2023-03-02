@@ -1,4 +1,7 @@
+package Game;
+
 import characters.*;
+import Sword.*;
 
 public class Game {
 	static void clash(Ogre ogre, Knight knight) {
@@ -23,8 +26,7 @@ public class Game {
 	public static void main(String[] args) {
 		Ogre[] o = new Ogre[100];
 		Knight[] k = new Knight[100];
-		Energy[] e = new Energy[100];
-		
+
 		for (int i = 0; i < 20; i++) {
 			k[i] = new BraveKnight(140, new Sword(i));
 			o[i] = new BadOgre();

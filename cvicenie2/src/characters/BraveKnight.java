@@ -1,4 +1,5 @@
 package characters;
+import Sword.*;
 
 public class BraveKnight extends Knight {
 	public BraveKnight() {
